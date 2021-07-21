@@ -1,0 +1,29 @@
+#todo-container{
+    max-width: 80%;
+}
+#todo-header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#add-button{
+    float: right;
+    position: absolute;
+    margin-top: 52px;
+    right: 1px;
+    bottom: 58px;
+}
+input{
+    margin-top: 10px;
+    max-width: 90%;
+    position: relative;
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+#result{
+    position: absolute;
+    right: 2px;
+    top: 20px;
+}
